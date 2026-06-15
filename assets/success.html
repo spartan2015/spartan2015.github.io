@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Successful</title>
+    <style>
+        /* General Styling - Professional White Theme */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f7f7f7; /* Very light, professional background */
+            color: #333333; /* Dark text for high contrast */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Container for the Success Message (The Card) */
+        .success-container {
+            background-color: #ffffff; /* Pure white card background */
+            border-radius: 10px;
+            padding: 40px 50px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); /* Soft shadow for depth */
+            max-width: 450px;
+            width: 90%;
+            border: 1px solid #eeeeee; /* Subtle border */
+        }
+
+        /* Icon Styling (Professional Blue/Teal Accent) */
+        .icon {
+            font-size: 5rem;
+            color: #4f39f6; /* Professional Blue/Teal Accent Color */
+            line-height: 1;
+            margin-bottom: 15px;
+            display: block;
+            font-weight: 200; /* Light weight for a refined look */
+        }
+
+        /* Heading Styling */
+        h1 {
+            color: #1a1a1a;
+            font-size: 2rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        /* Sub-text Styling */
+        p {
+            font-size: 1.05rem;
+            color: #666666;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        
+        /* The specific required detail section */
+        .email-detail {
+            font-weight: 500;
+            color: #4f39f6; /* Highlight the email detail in the accent color */
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #e9f5f8; /* Very light background for contrast */
+            border-radius: 6px;
+            font-size: 1rem;
+            border-left: 4px solid #4f39f6; /* Strong visual cue */
+        }
+
+        /* Link/Button Styling */
+        .cta-link {
+            display: inline-block;
+            background-color: #4f39f6; /* Use the accent color for the button */
+            color: #ffffff;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            transition: background-color 0.3s ease, transform 0.1s ease;
+        }
+
+        .cta-link:hover {
+            background-color: #006b8e;
+            transform: translateY(-1px);
+        }
+    </style>
+</head>
+<body>
+    <div class="success-container">
+        <span class="icon">✓</span>
+        
+        <h1>Success!</h1>
+        
+        <p>
+            Your order has been successfully placed. Thank you for choosing to invest with us.
+        </p>
+        
+        <div class="email-detail">
+            **Important:** All confirmation documents and **delivery details** have been sent directly to your registered email address.
+        </div>
+
+        <a href="/" class="cta-link">Back to Dashboard</a>
+    </div>
+</body>
+</html>
